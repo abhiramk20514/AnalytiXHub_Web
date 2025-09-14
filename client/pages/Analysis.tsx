@@ -9,7 +9,7 @@ import { Textarea } from "@/components/ui/textarea";
 
 interface Row { id: number; name: string; type: string; description: string; insights: string }
 
-const ALLOWED = [".pdf", ".doc", ".docx", ".txt", ".csv", ".json", ".png", ".jpg", ".jpeg"];
+const ALLOWED = [".pdf", ".doc", ".docx", ".txt", ".csv", ".json", ".png", ".jpg", ".jpeg", ".pptx", ".xlsx"];
 
 import Grid from "@/components/graphics/Grid";
 import Aurora from "@/components/graphics/Aurora";
