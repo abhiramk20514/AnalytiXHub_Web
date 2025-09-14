@@ -18,8 +18,8 @@ export function createServer() {
     res.json({ message: "pong" });
   });
 
-  // OAuth routes
-  app.use("/auth", authRoutes);
+  // OAuth routes (prefix with /api)
+  app.use("/api/auth", authRoutes);
 
   return app;
 }
