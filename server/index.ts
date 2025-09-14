@@ -19,7 +19,7 @@ export function createServer() {
   });
 
   // OAuth routes (prefix with /api)
-  app.use("/api/auth", authRoutes);
+  app.use("/auth", authRoutes);;
 
   return app;
 }
