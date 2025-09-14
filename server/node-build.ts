@@ -31,7 +31,7 @@ app.get("*", (req, res) => {
     return res.status(404).json({ error: "Endpoint not found" });
   }
 
-  // Serve index.html for all other frontend routes
+  // Serve SPA for all other frontend routes
   res.sendFile(path.join(distPath, "index.html"));
 });
 
